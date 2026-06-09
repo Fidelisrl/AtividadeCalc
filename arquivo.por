@@ -12,22 +12,38 @@ programa
 		escreva("Informe o Segundo Número: ")
 		leia(n2)
 		escolha(op){
-			caso 1 : escreva("Soma: ", n1, " + ", n2, " = ", n1+n2)
+			caso 1 : (soma(n1, n2))
 				pare
 
-			caso 2 : escreva("Subtração: ", n1, " - ", n2, " = ", n1-n2)
+			caso 2 : (sub(n1,n2))
 				pare
 
-			caso 3 : escreva("Multiplicação: ", n1, " x ", n2, " = ", n1*n2)
+			caso 3 : (mult(n1,n2))
 				pare
 
 			caso 4 : 
 				se(n2 == 0){
 					escreva("Não é possível dividir por 0")
 				} senao{
-					escreva("Divisão: ", n1, " / ", n2, " = ", n1/n2)
+					(div(n1,n2))
 				}
 				pare
-		}		
+		}	
 	}
+
+		funcao soma(inteiro a, inteiro b){
+    		escreva("A soma de " + a + " + " + b + " = " + (a+b))
+  		}
+
+  		funcao sub(inteiro a, inteiro b){
+    		escreva("A subtração de " + a + " - " + b + " = " + (a-b))
+  		}
+
+  		funcao mult(inteiro a, inteiro b){
+    		escreva("A multiplicação de " + a + " * " + b + " = " + (a*b))
+  		}
+
+  		funcao div(inteiro a, inteiro b){
+    		escreva("A divisão de " + a + " / " + b + " = " + (a/b))
+  		}	
 }
