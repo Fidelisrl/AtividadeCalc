@@ -15,3 +15,7 @@ Registro de Contribuições
     Integrante 2
         1º Contribuição:
             Eu alterei o algorítmo da calculadora para funcionar com procedimentos separados para cada cálculo, utilizei o git pull para trazer os arquivos do github para o meu computador pessoal e utilizei "code ." para editar o arquivo .por no VSCode
+
+    Integrante 3
+        1º Contribuição:
+            Melhorei a tipagem da calculadora, trocando em todas variáveis de inteiros para reais. Além disso, troquei os procedimentos das operaçòes em funções com retorno.
